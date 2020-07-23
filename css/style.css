@@ -138,33 +138,48 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 75vh;
-    outline: 1px dotted blue;
-    background-image: url(img/landing-page-background.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
+    height: 95vh;
+    /*outline: 1px dotted blue;*/
+    background-image: url(../img/girl_in_onlineclass.jpg) ;
+    opacity: 0.9;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
 
 }
 
 .KL_h1{
     font-size: 2.5rem;
     text-align: center;
+    margin-bottom: 40px;
+    margin-top: -40px;
     
 
 }
 
+.KL_h1 strong{
+  color: #f89737;  
+} 
+
+
 .KL_title1{
-    color: #f89737;
+    
     font-weight: 200;
+    background: gray;
+    color: white;
+    padding: 3px 15px;
+}
+
+.KL_landingpage p{
+    color: white;
 }
 
 #button{
    padding: 15px 32px;
    color: white;
    background-color: #f89737;
-   border-radius: 20%;
+   border-radius: 10px;
    text-decoration: none;
-   margin-top: 250px;
+   margin-top: 150px;
 
 }
 
