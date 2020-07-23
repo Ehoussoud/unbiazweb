@@ -138,8 +138,11 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 65vh;
+    height: 75vh;
     outline: 1px dotted blue;
+    background-image: url(landing-page-background.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 
 }
 
@@ -156,11 +159,13 @@ nav{
 }
 
 #button{
-   padding: : 15px 32px;
+   padding: 15px 32px;
    color: white;
    background-color: #f89737;
    border-radius: 10%;
    text-decoration: none;
+   margin-bottom: 50px;
+
 }
 
  #button:hover{
