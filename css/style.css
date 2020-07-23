@@ -140,7 +140,7 @@ nav{
     align-items: center;
     height: 75vh;
     outline: 1px dotted blue;
-    background-image: url(landing-page-background.jpg);
+    background-image: url(img/landing-page-background.jpg);
     background-repeat: no-repeat;
     background-size: auto;
 
@@ -162,9 +162,9 @@ nav{
    padding: 15px 32px;
    color: white;
    background-color: #f89737;
-   border-radius: 10%;
+   border-radius: 20%;
    text-decoration: none;
-   margin-bottom: 50px;
+   margin-top: 250px;
 
 }
 
