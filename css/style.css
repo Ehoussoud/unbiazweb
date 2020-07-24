@@ -141,7 +141,6 @@ nav{
     height: 95vh;
     /*outline: 1px dotted blue;*/
     background-image: url(../img/girl_in_onlineclass.jpg) ;
-    opacity: 0.9;
     /*background-repeat: no-repeat;*/
     background-size: cover;
 
@@ -220,5 +219,29 @@ nav{
         left: -1.5em;
         width: calc(100% + 1.5em);
     }
+
+}
+
+@media only screen and (max-device-width:667px) and (orientation:portrait){
+
+    .KL_landingpage{
+   
+    height: 85vh;
+    background-image: url(../img/kidoncomputer2.png) ;
+    background-size: cover;
+
+    }
+
+    .KL_h1{
+    font-size: 1.5rem;
+    margin-bottom: 35px;   
+    
+    }
+
+    .KL_landingpage p{
+        text-align: center;
+    }
+
+
 
 }
