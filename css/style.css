@@ -156,7 +156,9 @@ nav{
 }
 
 .KL_h1 strong{
-  color: #f89737;  
+    color: #f89737;  
+    position: relative;
+    top: 15px;
 } 
 
 
@@ -222,33 +224,81 @@ nav{
 
 }
 
-@media only screen and (max-device-width:667px) and (orientation:portrait){
+@media only screen and (min-device-width:768px) and  (max-device-width:1024px) and (orientation:portrait){
+   
+   .KL_landingpage{ 
+
+        background-image: url(../img/kidoncomputer2.png) ;
+        background-size: cover;
+    }
+
+     .KL_landingpage p{
+        display: none; 
+    }
+}
+
+
+
+
+
+@media only screen and (max-device-width:576px) and (orientation:portrait){
 
     .KL_landingpage{
    
-    height: 85vh;
-    background-image: url(../img/kidoncomputer2.png) ;
-    background-size: cover;
+        height: 85vh;
+        background-image: url(../img/kidoncomputer2.png) ;
+        background-size: cover;
 
     }
 
     .KL_h1{
-    font-size: 1.5rem;
-    margin-bottom: 35px;   
+        font-size: 1.5rem;
+        margin-bottom: 35px;   
     
     }
 
    .KL_h1 strong{
-        margin-top: 20px;
+        position: relative;
+        top: 20px;
     }
 
 
     .KL_landingpage p{
-        text-align: center;
-        color: black;
-        display: hidden; 
+        display: none; 
     }
+}
+
+
+@media only screen and (max-device-width:576px) and (orientation:landscape){
+
+    .KL_landingpage{
+   
+        height: 85vh;
+    }
+
+    .KL_h1{
+        font-size: 1.5rem;
+        /*margin-bottom: 5px;   */
+    
+    }
+
+   .KL_h1 strong{
+        position: relative;
+        top: 20px;
+    }
+
+
+    .KL_landingpage p{
+        display: none; 
+    }
+
+    #button{
+   
+   margin-top: 50px;
+
+}
 
 
 
 }
+
