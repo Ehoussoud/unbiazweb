@@ -238,8 +238,14 @@ nav{
     
     }
 
+    .KL_title1{
+        margin-bottom: 20px;
+    }
+
+
     .KL_landingpage p{
         text-align: center;
+        color: black;
     }
 
 
